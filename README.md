@@ -13,9 +13,9 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Overview
 
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/mobilefirst-solution-using-flexbox-qr-code-component-4a-xA4Ajwi)
+- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/mobilefirst-solution-using-flexbox-qr-code-component-4a-xA4Ajwi)
 
-- Live Site URL: [Add live site URL here](https://kolade1024.github.io/Frontend-Mentor-Projects)
+- Live Site URL: [live site URL](https://kolade1024.github.io/Frontend-Mentor-Projects)
 
 
 
