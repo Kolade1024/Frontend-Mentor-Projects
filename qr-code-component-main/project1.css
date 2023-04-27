@@ -1,0 +1,102 @@
+ @import url("https://fonts.googleapis.com/css?family=Outfit");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(212, 45%, 89%) ;
+}
+
+main{
+    margin: 17px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5%;
+
+}
+
+.qr img{
+    border-radius: 3%;
+}
+
+h1, p{
+    margin-top: 15px;
+    font-family:"Outfit";
+    text-align:center;
+    
+    
+}
+
+h1{
+    font-weight: 700;
+    color:hsl(218, 44%, 22%);
+}
+p{
+    font-weight:400;
+    color:hsl(220, 15%, 55%);
+}
+
+.attribution{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 15px;
+    font-family: "Outfit";
+}
+.attribution a{
+    color:hsl(228, 45%, 44%);
+}
+
+/* || MOBILE DEVICE */
+@media screen and (min-width: 375px) 
+ {
+    main{
+        flex-wrap:wrap;
+        justify-content: center;
+        width:min(100%, 340px);
+    }
+      
+ }
+
+
+
+
+@media screen and (min-width: 1400px )
+{
+    main{
+        width:min(100%, 350px);
+    }
+  
+}
+ /*|| MOBILE DEVICE LANDSCAPE*/
+@media screen and (max-height: 452px ) and (min-aspect-ratio: 7/4)
+{
+    main{
+        flex-flow: row nowrap;
+        justify-content: space-evenly; 
+        align-items: stretch;
+        width:min(100%, 290px);
+    }
+   
+}
